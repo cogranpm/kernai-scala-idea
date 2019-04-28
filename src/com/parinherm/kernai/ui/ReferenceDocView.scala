@@ -69,5 +69,5 @@ class ReferenceDocView (parent: Composite, style: Int) extends Composite (parent
   txtBody.setDocument(document, annotationModel)
   ruler.addDecorator(0, new LineNumberRulerColumn)
 
-  document.set("This is from the scala book")
+  document.set("This is from the scala book here")
 }
