@@ -8,8 +8,6 @@ import org.eclipse.jface.action.MenuManager
 import org.eclipse.jface.action.Separator
 import org.eclipse.jface.action.StatusLineManager
 import org.eclipse.jface.action.ToolBarManager
-import org.eclipse.jface.databinding.swt.DisplayRealm
-import org.eclipse.jface.layout.GridDataFactory
 import org.eclipse.jface.window.ApplicationWindow
 import org.eclipse.swt.SWT
 import org.eclipse.swt.custom.CTabFolder
