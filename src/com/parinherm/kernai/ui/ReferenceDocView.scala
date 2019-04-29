@@ -54,20 +54,19 @@ import org.eclipse.jface.text.source.SourceViewerConfiguration
 import org.eclipse.text
 
 
-class ReferenceDocView (parent: Composite, style: Int) extends Composite (parent, style) {
+class ReferenceDocView (parent: Composite, style: Int, document: ReferenceDoc) extends Composite (parent, style) {
 
   setLayout(new FillLayout(SWT.VERTICAL))
 
-  val document: IDocument = new Document()
+ // val document: IDocument = new Document()
   val VERTICAL_RULER_WIDTH = 12
   val overviewRuler = new OverviewRuler(null, VERTICAL_RULER_WIDTH, null)
   val ruler = new CompositeRuler(VERTICAL_RULER_WIDTH)
   val annotationModel = new AnnotationModel
-  annotationModel.connect(document)
+  annotationModel.connect(document.getDocument())
   val txtBody = new SourceViewer(this, ruler, overviewRuler, false, SWT.BORDER | SWT.MULTI | SWT.V_SCROLL | SWT.H_SCROLL)
   txtBody.configure(new SourceViewerConfiguration)
-  txtBody.setDocument(document, annotationModel)
+  txtBody.setDocument(document.getDocument(), annotationModel)
   ruler.addDecorator(0, new LineNumberRulerColumn)
 
-  document.set("This is from the scala book here")
 }

@@ -36,6 +36,9 @@ class MainWindow extends ApplicationWindow(null){
   addMenuBar()
   addStatusLine()
 
+  var mainContainer: Composite = null
+  var navReference:PShelfItem = null
+
   override def createContents(parent: Composite): Control = {
     val container = new Composite(parent, SWT.NONE)
     container.setLayout(new FillLayout)
@@ -44,18 +47,19 @@ class MainWindow extends ApplicationWindow(null){
     val weights: Array[Int] = Array[Int](1, 2)
     //sashForm.setWeights(weights)
     val navContainer: Composite = new Composite(sashForm, SWT.NONE)
-    val mainContainer: Composite = new Composite(sashForm, SWT.NONE)
+    mainContainer = new Composite(sashForm, SWT.NONE)
 
     navContainer.setLayout(new FillLayout(SWT.VERTICAL))
     mainContainer.setLayout(new FillLayout(SWT.VERTICAL))
 
     val navShelf: PShelf = new PShelf(navContainer, SWT.NONE)
     navShelf.setRenderer(new RedmondShelfRenderer)
-    val navReference: PShelfItem = new PShelfItem(navShelf, SWT.NONE)
+    navReference = new PShelfItem(navShelf, SWT.NONE)
+
     navReference.setText("Reference")
     navReference.getBody.setLayout(new RowLayout(SWT.VERTICAL))
-    val btnScala = SWTHelper.NavButton(navReference.getBody, mainContainer,  "First Steps")
-    val btnFutures = SWTHelper.NavButton(navReference.getBody, mainContainer, "Futures")
+    createReferenceButtons()
+
 
     val navPlaceHolder = new PShelfItem(navShelf, SWT.NONE)
     navPlaceHolder.setText("PlaceHolder")
@@ -95,14 +99,23 @@ class MainWindow extends ApplicationWindow(null){
 
   override def getInitialSize: Point = new Point(900, 900)
 
+  def createReferenceButtons(): Unit =
+  {
+    val scalableLanguageDocument = new ScalableLanguageDocument()
+    val firstStepsDocument = new FirstStepsDocument()
+    val futuresDocument = new FuturesDocument()
+    SWTHelper.NavButton(navReference.getBody, mainContainer,  "A Scalable Language", scalableLanguageDocument)
+    SWTHelper.NavButton(navReference.getBody, mainContainer,  "First Steps", firstStepsDocument)
+    SWTHelper.NavButton(navReference.getBody, mainContainer, "Futures", futuresDocument)
 
+  }
 
 }
 
 
 object SWTHelper {
 
-  def NavButton(container: Composite, targetContainer: Composite,  label: String): Button = {
+  def NavButton(container: Composite, targetContainer: Composite,  label: String, document: ReferenceDoc): Button = {
 
     val btn: Button = new Button(container, SWT.PUSH)
     btn.setText(label)
@@ -111,9 +124,10 @@ object SWTHelper {
       override def widgetSelected(selectionEvent: SelectionEvent): Unit = {
 
         //overwrite whatever is current in the main view with our new composite
-        val docView: ReferenceDocView = new ReferenceDocView(clearComposite(targetContainer), SWT.BORDER)
+        val docView: ReferenceDocView = new ReferenceDocView(clearComposite(targetContainer), SWT.BORDER, document)
         //this must be called in order to draw properly
         targetContainer.layout()
+        document.run()
       }
 
       override def widgetDefaultSelected(selectionEvent: SelectionEvent): Unit = ???
