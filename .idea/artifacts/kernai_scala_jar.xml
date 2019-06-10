@@ -1,0 +1,149 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kernai-scala:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kernai_scala_jar</output-path>
+    <root id="archive" name="kernai-scala.jar">
+      <element id="module-output" name="kernai-scala" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.swt_3.110.0.v20190305-0602.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.text_3.8.100.v20190306-1823.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/com.ibm.icu.source_63.1.0.v20181030-1705.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.osgi_3.13.300.v20190218-1622.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.jface_3.15.100.v20190222-1334.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.cwt_1.1.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.jobs_3.10.300.v20190215-2048.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.jface.text_3.15.100.v20190305-0811.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.ui.workbench_3.113.0.v20190219-1432.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.commands_3.9.300.v20190215-1957.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.runtime_3.15.200.v20190301-1641.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.effects.stw_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.resources_3.13.300.v20190218-2054.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.equinox.common_3.10.300.v20190218-2100.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.grid_1.1.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding_1.7.200.v20190216-1545.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.jface.databinding_1.8.500.v20190218-2049.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.geomap_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.pgroup_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.pshelf_1.1.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.jface.cdatetime_1.3.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.gallery_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.xviewer_1.1.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.cdatetime_1.3.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.paperclips.widgets_2.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.ganttchart_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.pshelf.css_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.tablecombo_1.2.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.tablecombo_1.2.0.201903071839.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding.beans_1.4.400.v20190131-1604.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.dialog_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.header_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.panels_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.splitbutton_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.floatingtext_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.nebulaslider_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.commons_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.oscilloscope_1.4.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.xviewer.core_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.swt.cocoa.macosx.x86_64_3.110.0.v20190305-0602.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.visualization.widgets_1.1.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.visualization.xygraph_3.1.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.duallist_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.launcher_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.notifier_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding.property_1.6.400.v20190215-1957.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.compositetable_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.progresscircle_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.breadcrumb_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.calculator_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.starrating_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.textassist_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding.observable_1.6.400.v20190218-2049.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.heapmanager_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.logindialog_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.multichoice_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.rangeslider_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.tipoftheday_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.switchbutton_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.checkboxgroup_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.columnbrowser_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.promptsupport_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.propertytable_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.roundedtoolbar_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.titledseparator_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.preferencewindow_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.horizontalspinner_1.0.0.201812241324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.sdkman/candidates/scala/2.12.8/lib/scala-library.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.sdkman/candidates/scala/2.12.8/lib/scala-swing_2.12-2.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.sdkman/candidates/scala/2.12.8/lib/scala-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.sdkman/candidates/scala/2.12.8/lib/scala-parser-combinators_2.12-1.0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.sdkman/candidates/scala/2.12.8/lib/scala-xml_2.12-1.0.6.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/icu4j-64.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.swt_3.110.0.v20190305-0602.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.text_3.8.100.v20190306-1823.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/com.ibm.icu.source_63.1.0.v20181030-1705.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.osgi_3.13.300.v20190218-1622.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.jface_3.15.100.v20190222-1334.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.cwt_1.1.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.jobs_3.10.300.v20190215-2048.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.jface.text_3.15.100.v20190305-0811.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.ui.workbench_3.113.0.v20190219-1432.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.commands_3.9.300.v20190215-1957.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.runtime_3.15.200.v20190301-1641.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.effects.stw_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.resources_3.13.300.v20190218-2054.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.equinox.common_3.10.300.v20190218-2100.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.grid_1.1.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding_1.7.200.v20190216-1545.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.jface.databinding_1.8.500.v20190218-2049.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.geomap_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.pgroup_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.pshelf_1.1.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.jface.cdatetime_1.3.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.gallery_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.xviewer_1.1.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.cdatetime_1.3.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.paperclips.widgets_2.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.ganttchart_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.pshelf.css_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.tablecombo_1.2.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.tablecombo_1.2.0.201903071839.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding.beans_1.4.400.v20190131-1604.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.dialog_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.header_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.panels_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.splitbutton_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.floatingtext_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.nebulaslider_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.commons_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.oscilloscope_1.4.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.xviewer.core_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.swt.cocoa.macosx.x86_64_3.110.0.v20190305-0602.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.visualization.widgets_1.1.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.visualization.xygraph_3.1.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.duallist_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.launcher_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.notifier_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding.property_1.6.400.v20190215-1957.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.compositetable_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.progresscircle_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.breadcrumb_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.calculator_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.starrating_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.textassist_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.core.databinding.observable_1.6.400.v20190218-2049.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.heapmanager_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.logindialog_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.multichoice_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.rangeslider_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.tipoftheday_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.switchbutton_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.checkboxgroup_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.columnbrowser_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.promptsupport_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.propertytable_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.roundedtoolbar_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.titledseparator_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.preferencewindow_1.0.0.201812241324.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../lib/eclipse/2019-3/org.eclipse.nebula.widgets.opal.horizontalspinner_1.0.0.201812241324.jar" />
+      <element id="library" level="application" name="scala-sdk-2.12.8" />
+    </root>
+  </artifact>
+</component>

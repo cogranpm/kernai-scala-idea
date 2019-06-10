@@ -1,3 +1,12 @@
+/* basic JFace Application window
+
+buttons on the left open a new composite on the right
+referencedocview is an swt composite derived class
+to render ReferenceDoc instances that are passed to it
+
+
+ */
+
 package com.parinherm.kernai.ui
 
 import org.eclipse.core.databinding.observable.Realm
