@@ -112,7 +112,7 @@ class MainWindow extends ApplicationWindow(null){
   {
     val scalableLanguageDocument = new ScalableLanguageDocument()
     val firstStepsDocument = new FirstStepsDocument()
-    val futuresDocument = new FuturesDocument()
+    val futuresDocument = new FuturesDocument(this.getShell().getDisplay())
     SWTHelper.NavButton(navReference.getBody, mainContainer,  "A Scalable Language", scalableLanguageDocument)
     SWTHelper.NavButton(navReference.getBody, mainContainer,  "First Steps", firstStepsDocument)
     SWTHelper.NavButton(navReference.getBody, mainContainer, "Futures", futuresDocument)
